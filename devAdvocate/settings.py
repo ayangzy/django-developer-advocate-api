@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     "django_filters",
     "core",
     "advocate",
+    "company"
 ]
 
 MIDDLEWARE = [
