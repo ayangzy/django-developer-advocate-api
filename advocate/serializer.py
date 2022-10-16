@@ -7,3 +7,10 @@ class AdvocateSerializer(serializers.ModelSerializer):
         model = Advocate
         fields = '__all__'
         depth = 1
+
+
+class AdvocateDetailSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Advocate
+        fields = '__all__'
+        depth = 1
