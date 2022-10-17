@@ -14,3 +14,11 @@ class CompanySerializer(serializers.ModelSerializer):
         fields = '__all__'
         
      advocates = GetAdvocate(many=True, read_only=True)
+     
+     
+class CompanyDetailSerializer(serializers.ModelSerializer):
+     class Meta:
+        model = Company
+        fields = '__all__'
+        
+     advocates = GetAdvocate(many=True, read_only=True)
