@@ -1,1 +1,1 @@
-web: gunicorn devAdvocate.wsgi --log-file -
+web: gunicorn advocateapi.wsgi --log-file -
