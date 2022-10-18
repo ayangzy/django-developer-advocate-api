@@ -1,4 +1,3 @@
-from tkinter.tix import Tree
 from rest_framework import serializers
 from core.models import Company, Advocate
 
