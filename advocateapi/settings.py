@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "django_filters",
     "core.apps.CoreConfig",
-    "advocate.apps. AdvocateConfig",
+    "advocate.apps.AdvocateConfig",
     "company.apps.CompanyConfig"
 ]
 
@@ -60,7 +60,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "devAdvocate.urls"
+ROOT_URLCONF = "advocateapi.urls"
 
 TEMPLATES = [
     {
@@ -78,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "devAdvocate.wsgi.application"
+WSGI_APPLICATION = "advocateapi.wsgi.application"
 
 
 # Database
