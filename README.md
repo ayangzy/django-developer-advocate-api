@@ -1,6 +1,17 @@
 ## Overview 
 This is python django hackathon project that outputs a list of developer advocates with their details such as where they work, social links, bio, etc.
 
+## Project Requirements
+Your API should at a minumum have these 4 endpoints
+
+```
+/advocates
+/advocates/:id
+/companies
+/companies/:id
+```
+Your API should be searchable (By user name), paginated.
+
 ## Installation & Usage
 You can simply clone  ``django-developer-advocate-api
 `` like below on your git bash
