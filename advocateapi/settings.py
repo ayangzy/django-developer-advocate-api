@@ -26,7 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-jxr^8gl-@&pezu-h*28_zv@sl(j+=kw9bx9gjd&7$cdy5$nkxh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["dev-advocate.herokuapp.com", "127.0.0.1"]
 
@@ -42,9 +42,9 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "rest_framework",
     "django_filters",
-    "core",
-    "advocate",
-    "company"
+    "core.apps.CoreConfig",
+    "advocate.apps. AdvocateConfig",
+    "company.apps.CompanyConfig"
 ]
 
 MIDDLEWARE = [
