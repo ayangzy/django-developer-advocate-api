@@ -88,3 +88,13 @@ https://advocateapi.herokuapp.com/api/companies/2/
 
 ```
 
+
+
+If you run into any issue, please email
+
+```felixdecoder2020@gmail```
+
+## Credits
+
+- [Ayange Felix](https://github.com/ayangzy)
+
